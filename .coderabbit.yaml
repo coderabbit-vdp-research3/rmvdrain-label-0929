@@ -1,0 +1,4 @@
+# RMVDRAIN label cell (authorized CodeRabbit VDP) — auto_review.labels negative filter.
+# Schema: ['!x'] reviews all PRs except those labeled 'x' when automatic reviews are enabled.
+auto_review:
+  labels: ["!rmvdrain-hold"]
